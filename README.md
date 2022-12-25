@@ -1,2 +1,3 @@
 # Gym-Website
-I Have designed a Gym Website webpage Using HTML and CSS.
+I Have designed a Gym Website webpage Using HTML.
+CSS
