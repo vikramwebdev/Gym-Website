@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+      <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+      <title>vS Health & fitness club</title>
+  
+      <link rel="stylesheet" href="css/style.css"/>
+      
+      <style>
+      /*CSS Reset*/
+      body{
+         color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('file:///E:/HTML/Image%20HTML/gym%20background.jpg');
+        background-color: black;
+        font-family: Verdana;
+      }
+      .left{
+         position: absolute;
+         left: 34px;
+          top: 20px;
+         display: inline-block;
+         /*border: 2px solid yellow;*/
+      }
+      .left img{
+         width: 100px;
+         
+         /*filter:invert(100%);*/
+      }
+      .left div{
+         line-height: 22px;
+         font-size: 18px;
+         text-align: center;
+      }
+      .mid{
+         display: block;
+         width: 60%;
+         margin: 14px auto;
+         /*border: 2px solid blue;*/
+      }
+      .right{
+         position: absolute;
+         right: 34px;
+         top: 20px;
+         /*display: inline-block;*/
+         /*border: 2px solid red;*/
+         /*float: right;*/
+      }
+      .navbar{
+         
+      }
+      .navbar li{
+         font-size: 18px;
+         display: inline-block;
+      }
+      
+      .navbar li a{
+         color: yellow;
+         text-decoration: none;
+         padding: 34px 23px;
+      }
+      .navbar li a:hover,.navbar li a.active{
+         text-decoration: underline;
+         color: grey;
+         
+      }
+      .btn{
+         margin: 0px 9px;
+         padding: 4px 14px;
+         background-color: black;
+         color: white;
+         border: 2px solid grey;
+         border-radius: 5px;
+         font-size: 16px;
+         cursor: pointer;
+      }
+      .btn:hover{
+         color: blue;
+         background-color: yellow;
+      }
+      .container{
+         margin: 106px 80px;
+    padding: 75px;
+    width: 35%;
+    border-radius: 9px;
+    border: 2px solid white;
+     }
+     .form-group input{
+        text-align: center;
+        display: block;
+        width: 344px;
+        padding: 6px;
+        font-size: 20px;
+        border: 2px solid black;
+        margin: 9px auto;
+        border-radius: 8px;
+     }
+     .container h2{
+        text-align: center;
+     }
+     .container button{
+           display: block;
+           width: 74%;
+           margin: 20px auto;
+           /*align-content: center;*/
+     }
+      </style>
+      </head>
+      <body>
+        <header class="header">
+            <!--left for logo -->
+            <div class="left">
+               <img src="file:///E:/HTML/Image%20HTML/gym%20logo.png" alt="logo" />
+               <div>vS Health & Fitness</div>
+            </div>
+            <!--mid for navigation bar-->
+            <div class="mid">
+               <ul class="navbar">
+                  <li><a href="#" class="active">Home</a></li>
+                  <li><a href="#" >About Us</a></li>
+                  <li><a href="#" >Services</a></li>
+                  <li><a href="#" >Fitness Center</a></li>
+                  <li><a href="#" >Contact Us</a></li>
+               </ul>
+               
+            </div>
+            <!--right for buttons-->
+            <div class="right">
+               <button class="btn"><strong>Call Us</strong></button>
+               <button class="btn"><strong>Email Us</strong></button>
+               
+            </div>
+         </header>
+         <div class="container">
+            <h2>Join the Best Gym of Akbarpur</h2>
+            <form class="farambhardo" action="noaction.php" method="get" accept-charset="utf-8">
+               
+               <div class="form-group">
+                  <input type="text" name="Full Name" placeholder="Enter your Name"/>
+              </div>
+              <div class="form-group">
+                 <input type="text" name="Full Name" placeholder="Enter your E-mail"/>
+             </div>
+             <div class="form-group">
+                <input type="text" name="Full Name" placeholder="Enter your Locality"/>
+                  
+             </div>
+             <div class="form-group">
+                <input type="number" name="Full Name" placeholder="Enter Mobile Number"/>
+                  
+             </div>
+             <div class="form-group">
+                <input type="number" name="Full Name" placeholder="Enter Gender"/>
+                  
+             </div>
+             <div class="form-group">
+                <input type="number" name="Full Name" placeholder="Enter D.O.B "/>
+             </div>
+               <button class="btn"><strong>Submit</strong></button>
+            </form>
+         </div>
+        <p>Regular exercise can reduce the risk of many serious diseases, improve mental health and mood, and extend lifespan. Exercise benefits everyone.
+Some benefits arise with very small increases in physical activity for people who are currently inactive.
+Even if a person is far from meeting the recommended weekly activity levels, those first small steps are important and worthwhile.
+Regular exercise can reduce the risk of many serious diseases, improve mental health and mood, and extend lifespan. Exercise benefits everyone.
+Some benefits arise with very small increases in physical activity for people who are currently inactive.
+Even if a person is far from meeting the recommended weekly activity levels, those first small steps are important and worthwhile.
+Regular exercise can reduce the risk of many serious diseases, improve mental health and mood, and extend lifespan. Exercise benefits everyone.
+Some benefits arise with very small increases in physical activity for people who are currently inactive.
+Even if a person is far from meeting the recommended weekly activity levels, those first small steps are important and worthwhile.
+Regular exercise can reduce the risk of many serious diseases, improve mental health and mood, and extend lifespan. Exercise benefits everyone.
+Some benefits arise with very small increases in physical activity for people who are currently inactive.
+Even if a person is far from meeting the recommended weekly activity levels, those first small steps are important and worthwhile.
+Regular exercise can reduce the risk of many serious diseases, improve mental health and mood, and extend lifespan. Exercise benefits everyone.
+Some benefits arise with very small increases in physical activity for people who are currently inactive.
+Even if a person is far from meeting the recommended weekly activity levels, those first small steps are important and worthwhile.
+Regular exercise can reduce the risk of many serious diseases, improve mental health and mood, and extend lifespan. Exercise benefits everyone.
+Some benefits arise with very small increases in physical activity for people who are currently inactive.
+Even if a person is far from meeting the recommended weekly activity levels, those first small steps are important and worthwhile.
+Regular exercise can reduce the risk of many serious diseases, improve mental health and mood, and extend lifespan. Exercise benefits everyone.
+Some benefits arise with very small increases in physical activity for people who are currently inactive.
+Even if a person is far from meeting the recommended weekly activity levels, those first small steps are important and worthwhile.
+Regular exercise can reduce the risk of many serious diseases, improve mental health and mood, and extend lifespan. Exercise benefits everyone.
+Some benefits arise with very small increases in physical activity for people who are currently inactive.
+Even if a person is far from meeting the recommended weekly activity levels, those first small steps are important and worthwhile.
+Regular exercise can reduce the risk of many serious diseases, improve mental health and mood, and extend lifespan. Exercise benefits everyone.
+Some benefits arise with very small increases in physical activity for people who are currently inactive.
+Even if a person is far from meeting the recommended weekly activity levels, those first small steps are important and worthwhile.
+</p>
+      </body>
+      </html>
